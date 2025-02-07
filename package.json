@@ -3,6 +3,7 @@
   "displayName": "ai-context-builder",
   "description": "Adds files to a context to be copied and pasted into online AI chat interfaces.",
   "version": "0.0.1",
+  "publisher": "galuga",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -12,6 +13,10 @@
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/galugasftw/ai-context-builder.git"
+  },
   "contributes": {
     "commands": [
       {
